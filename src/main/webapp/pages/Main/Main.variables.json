@@ -1,1 +1,25 @@
-{ }
+{
+  "HrdbExecuteUser1" : {
+    "_id" : "wm-HrdbExecuteUser1-wm.ServiceVariable-1505984042818",
+    "name" : "HrdbExecuteUser1",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ ],
+    "type" : "com.hrdb.models.query.User1Response",
+    "service" : "hrdb",
+    "operation" : "executeUser1",
+    "operationId" : "QueryExecutionController_executeUser1",
+    "operationType" : "get",
+    "serviceType" : "DataService",
+    "dataSet" : [ ],
+    "isList" : true,
+    "maxResults" : 20,
+    "startUpdate" : false,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "QueryExecution"
+  }
+}
